@@ -1,10 +1,10 @@
 #include <LPC21XX.H>
 #include "lcdheader.h"
 
-#define c0 (IOPIN1&(1<<16))
-#define c1 (IOPIN1&(1<<17))
-#define c2 (IOPIN1&(1<<18))
-#define c3 (IOPIN1&(1<<19))
+#define c0 (IOPIN1&(1<<23))
+#define c1 (IOPIN1&(1<<24))
+#define c2 (IOPIN1&(1<<25))
+#define c3 (IOPIN1&(1<<26))
 #define r0 1<<27
 #define r1 1<<28
 #define r2 1<<29
